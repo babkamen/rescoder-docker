@@ -1,4 +1,4 @@
-FROM codenvy/jdk7
+FROM java:8-jdk
 RUN sudo apt-get update
 RUN sudo apt-get install -y curl
 RUN wget -O - https://deb.nodesource.com/setup_iojs_3.x | sudo -E bash -
